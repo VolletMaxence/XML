@@ -1,0 +1,19 @@
+Question 1 = library06_json.json
+Question 2 = 
+
+    Les accolades et les parenthèses carrées permettent de représenter des arbres à plusieurs types de sommets,
+et des mouvements de pile avec différentes informations dans la pile.
+Par exemple, lors de la conversion du fichier xml en fichier json, les premières balises 
+<library> et <book> ont pris les positions suivantes :
+
+    La balise <library>, parente de la balise <book> a été convertie en
+library {}      #Utilisation des accolades
+et la balise enfant <book> est restée la même et utilise les parenthèses carrées []
+
+    Cela donne : 
+
+            "library": {
+                "book": [
+                    id/available/isbn/title/author
+                ]
+            }
