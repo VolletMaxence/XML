@@ -23,4 +23,10 @@ Question 3 =
     La dernière version est la 2019-09
     On retrouve aussi les types "string" et "integer"
     Les tableaux d'objets sont des tableaux de "string"
+    On spécifie les valeurs d'un objet string grâce à la fonction .stringify()
+        a = [];
+        a[0] = a;
+        monObjet = JSON.stringify(a); // L'objet sera changé en typeError
+    Un personnage character peut être un auteur si la balise auteur est inclue dans le character
+
 
