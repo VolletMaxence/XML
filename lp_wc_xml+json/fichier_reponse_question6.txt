@@ -17,3 +17,10 @@ et la balise enfant <book> est restée la même et utilise les parenthèses carr
                     id/available/isbn/title/author
                 ]
             }
+
+Question 3 =
+
+    La dernière version est la 2019-09
+    On retrouve aussi les types "string" et "integer"
+    Les tableaux d'objets sont des tableaux de "string"
+
